@@ -1,0 +1,251 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 12,
+        "title": "Featured products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 6,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "177886113759d8a4bf": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e287806_h8dFKW": {
+          "type": "ai_gen_block_e287806",
+          "settings": {
+            "heading": "Featured products",
+            "products": [],
+            "button_text": "Add to cart",
+            "sold_out_text": "Sold out",
+            "desktop_width_percent": 100,
+            "columns_desktop": 2,
+            "columns_mobile": "1",
+            "grid_gap": 16,
+            "item_gap": 16,
+            "item_padding": 16,
+            "container_padding": 20,
+            "heading_size": 28,
+            "heading_alignment": "left",
+            "heading_spacing": 24,
+            "heading_color": "#121212",
+            "image_size": 120,
+            "image_border_radius": 0,
+            "title_size": 16,
+            "title_color": "#121212",
+            "price_size": 16,
+            "price_color": "#121212",
+            "button_font_size": 14,
+            "button_border_radius": 0,
+            "button_background": "#121212",
+            "button_hover_background": "#000000",
+            "button_text_color": "#ffffff",
+            "background_color": "#ffffff",
+            "item_background": "#ffffff",
+            "item_border_color": "#e8e8e8",
+            "item_border_thickness": 1,
+            "item_border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e287806_h8dFKW"
+      ],
+      "settings": {}
+    },
+    "contact_form_nJDEiH": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_jcUbwL": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".field {max-width: 1000px; align-self: center;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class='field' >\n    <input class='field__input' name='data' type='text' placeholder='enter your text ' > \n     <label class='field__label' for='data'> Data set </label>\n\n</div",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_PktktM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pC3xNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_dyjfiL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_XmYxB8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://collections/baroque",
+            "button_style_secondary": false,
+            "button_label_2": "IT Time to change it",
+            "button_link_2": "shopify://pages/contact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pC3xNV",
+        "text_dyjfiL",
+        "button_XmYxB8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_rQPiAF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_trnTnG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_qVfbD3": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_TQRLXF": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/girl-with-a-pearl-earring-johannes-vermeer",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_trnTnG",
+        "text_qVfbD3",
+        "buttons_TQRLXF"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "177886113759d8a4bf",
+    "contact_form_nJDEiH",
+    "custom_liquid_jcUbwL",
+    "rich_text_PktktM",
+    "image_banner_rQPiAF"
+  ]
+}

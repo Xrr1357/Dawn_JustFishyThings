@@ -9,7 +9,8 @@
  */
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify://shop_images/Justfishything_resize.avif",
+    "logo_width": 50,
     "type_header_font": "oswald_n5",
     "heading_scale": 110,
     "type_body_font": "oswald_n3",

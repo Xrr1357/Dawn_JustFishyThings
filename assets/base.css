@@ -1990,6 +1990,7 @@ input[type='checkbox'] {
 }
 
 .quantity__input[type='number'] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
@@ -2000,7 +2001,7 @@ input[type='checkbox'] {
 }
 
 .quantity__rules .caption {
-  display: inline-block;
+  display: inline-block;  
   margin-top: 0;
   margin-bottom: 0;
 }

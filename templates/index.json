@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "video_banner_mDzzMb": {
+      "type": "video-banner",
+      "blocks": {
+        "heading_fVnRcc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Dream Fish,Delivered Alive.",
+            "heading_size": "hxl"
+          }
+        },
+        "text_T8GULq": {
+          "type": "text",
+          "settings": {
+            "text": "Hand-selected bettas, guppies, nano fish & live plants shipped fast from Southern California with a live arrival guarantee.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_RKACtg": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All Bettas",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fVnRcc",
+        "text_T8GULq",
+        "buttons_RKACtg"
+      ],
+      "name": "Video Banner",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/e8493a3ad05948899a865705069cc954.mp4",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "mobile_content_alignment": "center"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -51,6 +95,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "all",
         "products_to_show": 12,
@@ -83,6 +128,7 @@
     }
   },
   "order": [
+    "video_banner_mDzzMb",
     "image_banner",
     "featured_collection",
     "177886113759d8a4bf"

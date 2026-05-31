@@ -1,0 +1,10 @@
+/* centring the header linklist */
+
+.header {
+  display: flex;
+  flex-direction: row ;
+  grid-template-areas: 'left-icons heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}

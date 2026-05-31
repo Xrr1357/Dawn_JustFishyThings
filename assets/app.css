@@ -8,3 +8,16 @@
   align-items: center;
   justify-content: space-between;
 }
+
+
+/*header menu color and font weight*/
+ul.list-menu.list-menu--inline > li > a > span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.6rem;
+}

@@ -21,3 +21,21 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
     font-weight: 400;
     font-size: 1.6rem;
 }
+
+
+/* collection card text padding and centring */
+h3.card__heading {
+    text-align: center;
+}
+h3.card__heading > a > span {
+    display: none;
+}
+
+.card__information {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+a.full-unstyled-link {
+    font-weight: 100;
+    font-size: 1.8rem;
+}

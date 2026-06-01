@@ -141,6 +141,196 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "image_banner_UxAyGL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RNcf4J": {
+          "type": "heading",
+          "settings": {
+            "heading": "20% Off When You  Spend $300+",
+            "heading_size": "hxl"
+          }
+        },
+        "text_hJLfXh": {
+          "type": "text",
+          "settings": {
+            "text": "Mix bettas, guppies, plants & accessories. Discount applied automatically at checkout.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_XNapGy": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Build My Order",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RNcf4J",
+        "text_hJLfXh",
+        "buttons_XNapGy"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_3.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "featured_collection_9nznWD": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "plants",
+        "products_to_show": 4,
+        "title": "Freshwater Aquarium Plants",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_XjAUi6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BUynHw": {
+          "type": "heading",
+          "settings": {
+            "heading": "14896 Springdale st.Huntington Beach, CA 92647Tue - Fri, 10:00am - 3:30pmSat - Mon, Closed (Appointment Available)",
+            "heading_size": "h1"
+          }
+        },
+        "text_A6xUDm": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "button_behnaH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Direction",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BUynHw",
+        "text_A6xUDm",
+        "button_behnaH"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/store_location_2.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-a301e762-ba49-4b1c-a7a8-913f17c8b888",
+        "color_scheme": "scheme-a301e762-ba49-4b1c-a7a8-913f17c8b888",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_iinAL3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YkhGDB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fGqGnR": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Q6xPdi": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r88ene": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YkhGDB",
+        "column_fGqGnR",
+        "column_Q6xPdi",
+        "column_r88ene"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "We started offer Live Fish Shipping in 2022",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
         "padding_bottom": 36
       }
     }
@@ -148,6 +338,10 @@
   "order": [
     "video_banner_mDzzMb",
     "collection_list_GL7mM6",
-    "featured_collection_qGC6rh"
+    "featured_collection_qGC6rh",
+    "image_banner_UxAyGL",
+    "featured_collection_9nznWD",
+    "image_with_text_XjAUi6",
+    "multicolumn_iinAL3"
   ]
 }

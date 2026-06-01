@@ -44,12 +44,12 @@
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 10,
     "card_style": "standard",
-    "card_image_padding": 0,
+    "card_image_padding": 8,
     "card_text_alignment": "left",
     "card_color_scheme": "scheme-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
-    "card_corner_radius": 0,
+    "card_corner_radius": 2,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -201,11 +201,11 @@
       },
       "scheme-a301e762-ba49-4b1c-a7a8-913f17c8b888": {
         "settings": {
-          "background": "#080f1a",
+          "background": "#282830",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#39ff8f",
-          "button_label": "#ffffff",
+          "button_label": "#2c2950",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }

@@ -24,18 +24,18 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 
 
 /* collection card text padding and centring */
-h3.card__heading {
+.collection-list h3.card__heading {
     text-align: center;
 }
-h3.card__heading > a > span {
+.collection-list h3.card__heading > a > span {
     display: none;
 }
 
-.card__information {
+.collection-list .card__information {
     padding-top: 6px;
     padding-bottom: 6px;
 }
-a.full-unstyled-link {
+.collection-list a.full-unstyled-link {
     font-weight: 100;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }

@@ -85,3 +85,18 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 
 }
 }
+
+/* input field border and hover effect */
+.field:after {
+    box-shadow: 0 0 0 4px #39FF8F;
+}
+
+/* .field:hover.field:after{
+
+    box-shadow: 0 0 0 4px #39FF8F;
+} */
+
+/* svg icon hover effect in the footer */
+.list-unstyled .svg-wrapper:hover {
+    color:#00E5EB
+}

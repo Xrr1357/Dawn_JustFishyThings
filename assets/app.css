@@ -39,3 +39,49 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
     font-weight: 100;
     font-size: 1.6rem;
 }
+
+/* multicolumn card text color and size */
+
+.multicolumn-card.content-container {
+    font-size: 2rem;
+    border: solid 4px #39FF8F;
+    color : #FFFFFF;
+}
+.multicolumn-card.content-container .inline-richtext {
+
+    color:  #00E5EB;
+    font-size: 3rem;
+}
+
+.multicolumn.background-primary .multicolumn-card {
+    background: #0C0C0F !important;
+}
+
+@media screen and (min-width: 768px){
+    .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in {
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+    }
+    .footer-block.grid__item.scroll-trigger.animate--slide-in {
+        width: auto;
+    }
+    .footer-block__brand-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h2.footer-block__heading.rte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 4rem;
+}
+
+
+.footer-block .rte {
+    max-width: 80%;
+    color: #FFFFFF;
+
+}
+}

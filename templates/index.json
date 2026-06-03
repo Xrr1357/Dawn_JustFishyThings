@@ -228,15 +228,15 @@
         "heading_BUynHw": {
           "type": "heading",
           "settings": {
-            "heading": "14896 Springdale st.Huntington Beach, CA 92647Tue - Fri, 10:00am - 3:30pmSat - Mon, Closed (Appointment Available)",
+            "heading": "Where to find us ?",
             "heading_size": "h1"
           }
         },
         "text_A6xUDm": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_style": "body"
+            "text": "<p>14896 Springdale st.<br/><br/>Huntington Beach, CA 92647<br/><br/>Tue - Fri, 10:00am - 3:30pm<br/><br/>Sat - Mon, Closed (Appointment Available)<br/><br/>Text: ‪(714) 805-7255‬<br/><br/></p>",
+            "text_style": "subtitle"
           }
         },
         "button_behnaH": {
@@ -256,7 +256,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/store_location_2.png",
-        "height": "medium",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
@@ -276,8 +276,9 @@
         "column_YkhGDB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Happy_Costumers.svg",
+            "title": "3500+",
+            "text": "<p>Happy Costumers</p>",
             "link_label": "",
             "link": ""
           }
@@ -285,8 +286,9 @@
         "column_fGqGnR": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Shipping.svg",
+            "title": "7000+",
+            "text": "<p>Oeders Delivered</p>",
             "link_label": "",
             "link": ""
           }
@@ -294,8 +296,9 @@
         "column_Q6xPdi": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/DOA.svg",
+            "title": "65",
+            "text": "<p>Oeders With DOA</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,8 +306,9 @@
         "column_r88ene": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Star.svg",
+            "title": "5/5",
+            "text": "<p>Satisfaction Rating</p>",
             "link_label": "",
             "link": ""
           }
@@ -320,15 +324,15 @@
       "settings": {
         "title": "We started offer Live Fish Shipping in 2022",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 36

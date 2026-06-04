@@ -100,3 +100,28 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 .list-unstyled .svg-wrapper:hover {
     color:#00E5EB
 }
+
+
+
+/* postion social icons header*/
+@media screen and (min-width: 768px){
+
+
+    .footer-social-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .footer-block--newsletter.scroll-trigger.animate--slide-in {
+    margin-top: 0px;
+}
+
+}
+
+
+h2.footer-block__heading.inline-richtext {
+    font-size: 3rem;
+    margin-bottom: 2px;
+}

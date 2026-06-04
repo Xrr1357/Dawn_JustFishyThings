@@ -128,9 +128,16 @@
                       {%- if settings.brand_description != blank -%}
                         <div class="rte">{{ settings.brand_description }}</div>
                       {%- endif -%}
+
+
                       {%- if block.settings.show_social and has_social_icons -%}
+
+                        <h2>Follow us now :</h2>
                         {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
+
+
+
                     </div>
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
@@ -165,11 +172,19 @@
             data-cascade
           {% endif %}
         >
+
+        {% comment %} aycherr-newsletter form added {% endcomment %}
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
+                <div class="newsletter-heading-wrapper_costum"> 
                 <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
+                {%- if section.settings.newsletter_subtitle != blank -%}
+                  <div class="footer-block__newsletter-subtitle rte">{{ section.settings.newsletter_subtitle }}</div>
+                {%- endif -%}
+                </div>
               {%- endif -%}
+
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
@@ -242,7 +257,12 @@
             </div>
           {%- endif -%}
 
+         {% comment  %} aycherr-Social header added {% endcomment %} 
+           
           {%- if section.settings.show_social and has_social_icons -%}
+            {%if section.settings.social_header != blank %}
+              <h2 class = "footer-social-header"> {{section.settings.social_header}}</h2>
+            {% endif %}
             {%- render 'social-icons', class: 'footer__list-social' -%}
           {%- endif -%}
         </div>
@@ -529,6 +549,16 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "text",
+      "id" : "social_header",
+      "label": "social icons header",
+    },
+    {
+      "type": "richtext",
+      "id" : "newsletter_subtitle",
+      "label": "newsletter subtitle"
     }
   ],
   "default": {

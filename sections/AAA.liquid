@@ -1,0 +1,38 @@
+
+{%if section.settings.TripleAAA_text %}
+    {% if section.settings.show_subtitle == true %}
+        <h3>this is a quick subtitle</h3>
+    {% endif %}
+
+    <h2>{{section.settings.TripleAAA_text |  escape }}</h2>
+  
+{% endif %}
+
+
+
+{% schema  %}
+
+
+{
+    "name": "TripleAAA",
+    "presets": [
+        {
+        "name" : "TripleAAA"
+        }
+    ],
+    "settings" : [
+        {
+            "type": "text",
+            "id" : "TripleAAA_text",
+            "label": "TripleAAA Text"
+
+        },
+        {
+            "type": "checkbox",
+            "id": "show_subtitle",
+            "label": "subtitle"
+        }
+    ]
+}
+
+{% endschema %}

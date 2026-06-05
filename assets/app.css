@@ -121,7 +121,63 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 }
 
 
-h2.footer-block__heading.inline-richtext {
+.footer-block--newsletter .footer-block__newsletter h2 {
+
+    margin-bottom: 0px;
     font-size: 3rem;
-    margin-bottom: 2px;
+}
+
+
+/* product card costumization */
+.card__information h3 {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+.card-information span {
+    color: #39FF8F;
+    font-size: 1.6rem;
+}
+
+
+
+.card__content {
+    grid-template-columns: 8fr 2fr;
+}
+
+.card__information {
+    grid-column: 1;
+    grid-row: 1 !important  ;
+}
+
+
+.quick-add.no-js-hidden {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 0.5rem;
+}
+
+.quick-add__submit{ 
+
+    background: #39FF8F;
+    color : #2C2950;
+    box-shadow: none;
+    border-radius: 50%;
+    padding : 0.5rem 1.5rem;
+    height: 50px;
+    width: 50px;
+}
+.quick-add__submit:hover {
+    background: #00E5EB;
+    color : #2C2950;
+    border-radius: 50%;
+    
+    pointer-events: cursor;
+}
+.quick-add__submit:active {
+    background: #00989C;
+    color : #FFFFFF;
+    border-radius: 50%;
 }

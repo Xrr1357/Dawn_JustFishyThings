@@ -140,7 +140,7 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 
 
 
-.card__content {
+/* .card__content {
     grid-template-columns: 8fr 2fr;
 }
 
@@ -157,9 +157,9 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
     align-items: end;
     justify-content: end;
     padding: 0.5rem;
-}
+} */
 
-.quick-add__submit{ 
+/* .quick-add__submit{ 
 
     background: #39FF8F;
     color : #2C2950;
@@ -180,4 +180,51 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
     background: #00989C;
     color : #FFFFFF;
     border-radius: 50%;
+} */
+
+
+
+.add-btn[disabled] {
+
+    opacity:0.5;
+    cursor : not-allowed;
+}
+
+
+.card-infrmation-wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+.add-btn {
+
+    background-color: #39FF8F;
+    padding: 0.5rem;
+    border: solid 1px #39FF8F;
+    border-radius: 50%;
+    z-index: 3;
+    min-width: 4rem;
+    min-height: 4rem;
+    cursor: pointer;
+
+}
+.add-btn:hover {
+    background-color: #00E5EB;
+    border: solid 1px #00E5EB;
+    color : #2C2950;
+}
+.add-btn:active {
+    background-color: #00989C;
+    border: solid 1px #00989C;
+    color : #FFFFFF;
+}
+
+.add-btn .svg{
+    padding: 2rem;
+}
+
+.card__content {
+    padding-inline: 8px !important;
 }

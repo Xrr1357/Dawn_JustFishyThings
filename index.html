@@ -1,0 +1,17 @@
+
+
+
+<form action=". .. . "  method="post" enctype="multipart/form-data" class="product-form__form">
+  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" />
+  <button type="submit" name="add" class="product-form__submit button button--full-width button--primary">
+    <span>
+      {%- if product.selected_or_first_available_variant.available -%}
+        {{ 'products.product.add_to_cart' | t }}
+      {%- else -%}
+        {{ 'products.product.sold_out' | t }}
+      {%- endif -%}
+    </span>
+    <div class="loading-overlay__spinner hidden">
+      <svg>...</svg>
+    </div>
+  </button>

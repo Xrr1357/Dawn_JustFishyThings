@@ -1329,4 +1329,83 @@ class CartPerformance {
       `${metricName}:end`
     );
   }
+  
 }
+
+  // add to cart button script
+  (function() {
+    // Attach submit listener to all add-to-cart forms, skipping already-attached ones
+    var forms = document.querySelectorAll('.add-to-cart-form:not([data-listener-attached])');
+    forms.forEach(function(form) {
+      form.setAttribute('data-listener-attached', 'true');
+      form.addEventListener('submit', function(event) {
+        // Prevent native form submission
+        event.preventDefault();
+        // Disable button and show loading state
+          const button = form.querySelector('button[name="add"]');
+          console.log('button found:', button);
+          button.disabled = true;
+          /* button.textContent = 'Adding...'; */
+        console.log('clicked!');
+        var formData = new FormData(form);
+
+        // Step 1: Add product to cart via AJAX
+        fetch('/cart/add.js', {
+          method: 'POST',
+          body: formData,
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Added to cart:', data);
+
+          // Step 2: Fetch updated cart to get item count
+          fetch('/cart.js')
+            .then(res => res.json())
+            .then(cart => {
+              // Restore button state
+              button.disabled = false;
+              /* button.textContent = 'Add to cart'; */
+              // Step 3: Update cart bubble count in header
+              const bubble = document.querySelector('.cart-count-bubble');
+              if (bubble) {
+                bubble.querySelector('[aria-hidden="true"]').textContent = cart.item_count;
+                bubble.querySelector('.visually-hidden').textContent = cart.item_count + ' items';
+              }
+
+              // Step 4: Refresh and open cart drawer
+              const cartDrawer = document.querySelector('cart-drawer');
+              if (cartDrawer) {
+                // Fetch fresh render of cart drawer section from Shopify
+                fetch('/?sections=cart-drawer')
+                  .then(res => res.json())
+                  .then(sections => {
+                    // Parse the fresh HTML and swap drawer contents
+                    const html = new DOMParser().parseFromString(sections['cart-drawer'], 'text/html');
+                    const newDrawer = html.querySelector('#CartDrawer');
+                    const currentDrawer = document.querySelector('#CartDrawer');
+                    if (newDrawer && currentDrawer) {
+                      currentDrawer.innerHTML = newDrawer.innerHTML;
+                      // Reattach overlay click listener lost during innerHTML swap
+                      currentDrawer.querySelector('#CartDrawer-Overlay').addEventListener('click', () => cartDrawer.close());
+                    }
+                    // Open the drawer
+                    cartDrawer.open();
+                  })
+                  .catch(err => {
+                    // If refresh fails, open drawer anyway with stale content
+                    console.error('Drawer refresh failed:', err);
+                    cartDrawer.open();
+                  });
+              }
+            });
+        })
+        // Step 5: Handle any errors from the add to cart request
+        .catch(error => {
+          console.error('Error:', error);
+          // Restore button on error
+            button.disabled = false;
+            button.textContent = 'Add to cart';
+        });
+      });
+    });
+  })();

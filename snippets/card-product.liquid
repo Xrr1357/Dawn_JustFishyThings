@@ -291,6 +291,11 @@
               {% endif %}
             {%- endif -%}
           </div>
+          <!-- Start of Judge.me code -->
+          <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}' data-auto-install='false'>
+              {{ card_product.metafields.judgeme.badge }}
+          </div>
+          <!-- End of Judge.me code -->
           <div class="add-btn-wrapper">
             <form id="add-to-cart-form" class="add-to-cart-form" action="{{ routes.cart_add_url }}" method="post">
             <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" />

@@ -184,6 +184,15 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 
 
 
+/* add to cart button costumization */ 
+.add-btn-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+
 .add-btn[disabled] {
 
     opacity:0.5;
@@ -197,6 +206,7 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
     width: 100%;
     z-index: 2;
     position: relative;
+    min-height: 61.93px;
 }
 .add-btn {
 
@@ -227,4 +237,12 @@ ul.list-menu.list-menu--inline > li > header-menu > details > summary > span {
 
 .card__content {
     padding-inline: 8px !important;
+}
+
+
+/* rating stars costumization */
+
+span.jdgm-prev-badge__text {
+    color: #00E5EB;
+    display:none;
 }
